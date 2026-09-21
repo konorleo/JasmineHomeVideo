@@ -31,13 +31,12 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            button4 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
             button1.BackgroundImageLayout = ImageLayout.Stretch;
-            button1.Location = new Point(140, 145);
+            button1.Location = new Point(278, 177);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -47,31 +46,23 @@
             // 
             // button2
             // 
-            button2.Location = new Point(337, 145);
+            button2.Location = new Point(478, 128);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 1;
             button2.Text = "Загадки";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(534, 145);
+            button3.Location = new Point(678, 177);
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 2;
             button3.Text = "Угадки";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(468, 55);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 3;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -81,7 +72,6 @@
             BackgroundImage = Properties.Resources.IMG_20260918_114738_311;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1043, 824);
-            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -100,6 +90,5 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private Button button4;
     }
 }

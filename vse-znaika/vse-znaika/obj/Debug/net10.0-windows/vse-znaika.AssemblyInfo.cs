@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vse-znaika")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bad87f1aaa72032ef49d96156333adc257915532")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+949f2bdef5dae4faf4a9cbd700d5997d626f2611")]
 [assembly: System.Reflection.AssemblyProductAttribute("vse-znaika")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vse-znaika")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
