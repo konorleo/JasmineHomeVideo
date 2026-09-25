@@ -35,8 +35,9 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             button1.BackgroundImageLayout = ImageLayout.Stretch;
-            button1.Location = new Point(278, 177);
+            button1.Location = new Point(279, 258);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -46,7 +47,8 @@
             // 
             // button2
             // 
-            button2.Location = new Point(478, 128);
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            button2.Location = new Point(474, 177);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 1;
@@ -56,7 +58,8 @@
             // 
             // button3
             // 
-            button3.Location = new Point(678, 177);
+            button3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button3.Location = new Point(672, 258);
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 2;
@@ -75,7 +78,6 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            MinimumSize = new Size(800, 600);
             Name = "Form1";
             RightToLeft = RightToLeft.No;
             StartPosition = FormStartPosition.CenterScreen;

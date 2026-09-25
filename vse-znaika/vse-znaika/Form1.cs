@@ -14,7 +14,10 @@ namespace vse_znaika
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form2 f2 = new Form2();
+            f2.Owner = this;   // <-- запоминаем кто владелец
+            f2.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
