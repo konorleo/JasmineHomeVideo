@@ -29,14 +29,18 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+<<<<<<< HEAD
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
+=======
+>>>>>>> dcff06d126e7a6a5bece25b9645e894d61736d3e
             SuspendLayout();
             // 
             // button1
             // 
+<<<<<<< HEAD
             button1.Location = new Point(24, 403);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
@@ -81,11 +85,22 @@
             button5.Text = "button5";
             button5.UseVisualStyleBackColor = true;
             // 
+=======
+            button1.Location = new Point(569, 36);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+>>>>>>> dcff06d126e7a6a5bece25b9645e894d61736d3e
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+<<<<<<< HEAD
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -95,15 +110,23 @@
             Text = "Form2";
             FormClosed += Form2_FormClosed;
             Load += Form2_Load;
+=======
+            Controls.Add(button1);
+            Name = "Form2";
+            Text = "Form2";
+>>>>>>> dcff06d126e7a6a5bece25b9645e894d61736d3e
             ResumeLayout(false);
         }
 
         #endregion
 
         private Button button1;
+<<<<<<< HEAD
         private Button button2;
         private Button button3;
         private Button button4;
         private Button button5;
+=======
+>>>>>>> dcff06d126e7a6a5bece25b9645e894d61736d3e
     }
 }
